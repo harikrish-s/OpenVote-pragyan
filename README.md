@@ -80,20 +80,11 @@ make it virtually impossible to commit electoral fraud.
 ## Usage
 
 - At First, Register the Candidates, Then add the Voters & Finally Start the Election.
-
-
-## Creating a New Election
-
-#### 1. Copy the Code from the output
-
-![](/screenshots/c1.png)
-
-#### 2. Paste it as deploy.js, after that deploy using hardhat
-
-
-   
-
-
+- Now to Login as Voter, Enter your official document details & then verify your Identity by entering the OTP generated to your registered mobile.
+- If there is an ongoing election, you could cast your vote by passing a ZTA (Zero Trust Athentication) which is again generated as a key to your mobile.
+- After successful verify you can now cast your vote to your desired candidate.
+- Once the vote is casted, A NFT is generated as a Token of Acknowledgement.
+- Now on the Admin side, you can view the Live Vote Count under each candidates & once the election is concluded a deteailed report & analytics will been generated.
 
 ## Workflow
 
@@ -118,6 +109,7 @@ make it virtually impossible to commit electoral fraud.
 - Ethers.JS
 - Solidity
 - CosVM
+- MetaMask
 - Flask
 - PostgreSQL
 
