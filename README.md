@@ -54,29 +54,33 @@ make it virtually impossible to commit electoral fraud.
    
 #### Now we have three modules, lets start each step by step:
 
-3. Front End Dashboard
+
+3. Solidity
    ```
-   cd client
-   npm i
-   npm run dev
+   cd smartContracts
+   npx hardhat run --network cosvm scripts/deploy.ts
    ```
-   
+   Copy the Smart Contract Address generated & paste it in the constants.js file of utils folder under client
+  
 
 4. Backend
    ```
    pip install requirements.txt
    python app.py
    ```
-   
-
-5.   
+      
+5. Front End Dashboard
+   ```
+   cd client
+   npm i
+   npm run dev
+   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-- At First, Create Election, Register the Candidates and Add voters from Admin.
-- Run Python API
-- Login as Voter, by uploading fingerprint images(download link given above), and cast the votes!
+- At First, Register the Candidates, Then add the Voters & Finally Start the Election.
+
 
 ## Creating a New Election
 
@@ -86,13 +90,10 @@ make it virtually impossible to commit electoral fraud.
 
 #### 2. Paste it as deploy.js, after that deploy using hardhat
 
-   sh
-   cd Contracts
-   npx hardhat compile
-   npx hardhat run --network cosvm scripts/deploy.ts
+
    
 
-#### 3. You have Deployed your Election!
+
 
 ## Workflow
 
