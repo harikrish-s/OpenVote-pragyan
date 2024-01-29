@@ -31,7 +31,7 @@ make it virtually impossible to commit electoral fraud.
 
 ### Prerequisites
 
-* npm
+* Node
 * Python Flask
 * Postgres
 * Metamask
@@ -43,38 +43,33 @@ make it virtually impossible to commit electoral fraud.
 
 
 1. Clone the repo
-   sh
-   git clone https://github.com/harikrish-s/OpenVote-pragyan
+   ```
+   git clone https://github.com/harikrish-s/OpenVote-
+   ```
    
 2. cd into repo
-   sh
+   ```
    cd OpenVote-pragyan
+   ```
    
 #### Now we have three modules, lets start each step by step:
 
 3. Front End Dashboard
-   sh
+   ```
    cd client
    npm i
-   npm start
+   npm run dev
+   ```
    
 
 4. Backend
-   ####
-   sh
+   ```
    pip install requirements.txt
    python app.py
+   ```
    
 
-5.
-
-
-6. Finally VotingSystem - Where Voters cast votes
-   sh
-   cd VotingSystem
-   npm i
-   npm run dev
-   
+5.   
 
 <!-- USAGE EXAMPLES -->
 ## Usage
