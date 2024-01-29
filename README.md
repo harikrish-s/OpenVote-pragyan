@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="readme-assets/logo-readme.png" alt="Logo" height="80">
+    <img src="openVote-logo.png" alt="OpenVote" height="80">
   </div>
 
 # OpenVote: Blockchain-based Voting System
