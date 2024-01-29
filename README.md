@@ -44,7 +44,7 @@ make it virtually impossible to commit electoral fraud.
 
 1. Clone the repo
    ```
-   git clone https://github.com/harikrish-s/OpenVote-
+    https://github.com/harikrish-s/OpenVote-pragyan.git
    ```
    
 2. cd into repo
