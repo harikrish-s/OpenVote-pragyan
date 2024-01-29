@@ -1,6 +1,6 @@
 <div align="center">
     <img src="openVote-logo.png" alt="OpenVote" height="80">
-  </div>
+</div>
 
 # OpenVote: Blockchain-based Voting System
 
