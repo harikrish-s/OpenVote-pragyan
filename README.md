@@ -54,7 +54,7 @@ make it virtually impossible to commit electoral fraud.
    
 3. Solidity
    ```
-   cd smartContracts
+   cd smartContract
    npx hardhat run --network cosvm scripts/deploy.ts
    ```
    Copy the Smart Contract Address generated & paste it in the constants.js file of utils folder under client
@@ -62,6 +62,7 @@ make it virtually impossible to commit electoral fraud.
 
 4. Backend
    ```
+   cd flask
    pip install requirements.txt
    python app.py
    ```
