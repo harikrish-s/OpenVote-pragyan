@@ -57,7 +57,7 @@ make it virtually impossible to commit electoral fraud.
    cd smartContract
    npx hardhat run --network cosvm scripts/deploy.ts
    ```
-   Copy the Smart Contract Address generated & paste it in the constants.js file of utils folder under client
+   *Copy the Smart Contract Address generated & paste it in the constants.js file of utils folder under client*
   
 
 4. Backend
