@@ -90,15 +90,20 @@ make it virtually impossible to commit electoral fraud.
 
 
 ## Screenshots
+<img width="960" alt="Admin-Login" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/4b172a71-6f1c-4602-8253-ed1a3bd36499">
+<img width="960" alt="Add-Candidate" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/cba3fcd3-cf35-4401-8247-bdc2252ba319">
+<img width="960" alt="Add Voter" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/c77c5fb9-0d93-4f2f-a472-ee17ef960282">
+<img width="960" alt="Live-Tally" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/b603a991-0159-47ca-9de8-9e23b7b278ec">
 
-![](/screenshots/a1.png)
 
-![](/screenshots/a2.png)
+<img width="960" alt="Voter-Login" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/5bef72a9-8a27-4dce-a1e8-afeaab9ae217">
 
-![](/screenshots/a3.png)
+<img width="960" alt="OTP" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/c93ae436-aaee-4b5c-95d2-1bd4f6e2ded5">
 
-![](/screenshots/a4.png)
+<img width="960" alt="Poll-Vote" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/5a7c7f72-8c55-4154-bd80-9682ce82c56a">
 
+
+<img width="960" alt="Receipt" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/b86fd0f0-da9c-4232-a576-bc685fdf3b55">
 
 ## Built With
 
