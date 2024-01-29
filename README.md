@@ -52,9 +52,6 @@ make it virtually impossible to commit electoral fraud.
    cd OpenVote-pragyan
    ```
    
-#### Now we have three modules, lets start each step by step:
-
-
 3. Solidity
    ```
    cd smartContracts
