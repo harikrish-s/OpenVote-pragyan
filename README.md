@@ -108,6 +108,7 @@ make it virtually impossible to commit electoral fraud.
 - TailwindCSS
 - Ethers.JS
 - Solidity
+- Openzeppelin
 - CosVM
 - MetaMask
 - Flask
