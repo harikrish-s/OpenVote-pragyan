@@ -1,6 +1,6 @@
-<div align="center">
-    <img src="openVote-logo.png" alt="OpenVote" height="80">
-</div>
+  <div align="center">
+    <img src="readme-assets/logo.png" alt="OpenVote" height="80">
+  </div>
 
 # OpenVote: Blockchain-based Voting System
 
@@ -19,7 +19,7 @@ make it virtually impossible to commit electoral fraud.
 
 - Real-Time Vote Tallying: Real-time vote tallying, eliminating manual counting and reducing result announcement time.
 
-- Zero-Trust Security: Unique Zero-Trust Security based authentication method using Aadhar, Voter ID and 2 OTPs at different stages to cast vote securely maintaining integrity.
+- Zero-Trust Security (ZTS): Unique Zero-Trust Security based authentication method using Aadhar, Voter ID and 2 OTPs at different stages to cast vote securely maintaining integrity.
 
 - Vote from Anywhere: Voters can cast their vote from anywhere in the globe with just a smartphone and an internet connection.
 
@@ -43,30 +43,30 @@ make it virtually impossible to commit electoral fraud.
 
 
 1. Clone the repo
+   ```sh git clone
+   https://github.com/harikrish-s/OpenVote-pragyan.git
    ```
-    https://github.com/harikrish-s/OpenVote-pragyan.git
-   ```
-   
+
 2. cd into repo
    ```
    cd OpenVote-pragyan
    ```
-   
+
 3. Solidity
    ```
    cd smartContract
    npx hardhat run --network cosvm scripts/deploy.ts
    ```
-   *Copy the Smart Contract Address generated & paste it in the constants.js file of utils folder under client*
-  
+   *Copy the Smart Contract Address generated & paste to client/src/utils/constants.js*
+
 
 4. Backend
    ```
    cd flask
    pip install requirements.txt
-   python app.py
+   flask run
    ```
-      
+
 5. Front End Dashboard
    ```
    cd client
@@ -74,20 +74,25 @@ make it virtually impossible to commit electoral fraud.
    npm run dev
    ```
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-- At First, Register the Candidates, Then add the Voters & Finally Start the Election.
-- Now to Login as Voter, Enter your official document details & then verify your Identity by entering the OTP generated to your registered mobile.
-- If there is an ongoing election, you could cast your vote by passing a ZTA (Zero Trust Athentication) which is again generated as a key to your mobile.
-- After successful verify you can now cast your vote to your desired candidate.
-- Once the vote is casted, A NFT is generated as a Token of Acknowledgement.
-- Now on the Admin side, you can view the Live Vote Count under each candidates & once the election is concluded a deteailed report & analytics will been generated.
+- Login to the admin side dashboard, Register the Candidates and Voters. Start the election.
+- Now to Login as a voter, enter your credentials (Govt IDs) & then verify your Identity by entering the OTP generated to your linked mobile number.
+- You can cast your vote by verifying yourself with an OTP again for ZTS level 2.
+- On successful verification, your vote will get recorded into the blockchain.
+- An NFT is generated as a receipt for casting your vote and also as a reward for doing your job a citizen.
+- Now on the Admin side, you can view the Live Vote Tally. Once the election is over, a detailed analytics report will be generated for gaining insights.
 
 ## Workflow
 
-<img width="740" alt="admin-workflow" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/8e74d0a8-8bfd-43ec-9d2f-7adfe4021666">
-<img width="704" alt="voter-workflow" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/03a96dc2-f01a-41aa-9e31-7548eff2315e">
+**Admin Workflow**
+<img width="740" alt="admin-workflow" src="readme-assets/admin workflow.png">
+
+**Voter Workflow**
+<img width="704" alt="voter-workflow" src="readme-assets/admin workflow.png">
+
+**System Architecture**
+<img width="704" alt="voter-workflow" src="readme-assets/sys_arc.png">
 
 
 ## Screenshots
