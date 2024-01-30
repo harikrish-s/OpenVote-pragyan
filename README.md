@@ -86,32 +86,60 @@ make it virtually impossible to commit electoral fraud.
 ## Workflow
 
 **Admin Workflow**
+
 <img width="740" alt="admin-workflow" src="readme-assets/admin workflow.png">
 
 **Voter Workflow**
-<img width="704" alt="voter-workflow" src="readme-assets/admin workflow.png">
+
+<img width="704" alt="voter-workflow" src="readme-assets/voter workflow.png">
 
 **System Architecture**
+
 <img width="704" alt="voter-workflow" src="readme-assets/sys_arc.png">
 
 
 ## Screenshots
-<img width="960" alt="Admin-Login" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/4b172a71-6f1c-4602-8253-ed1a3bd36499">
-<img width="960" alt="Add-Candidate" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/cba3fcd3-cf35-4401-8247-bdc2252ba319">
-<img width="960" alt="Add Voter" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/c77c5fb9-0d93-4f2f-a472-ee17ef960282">
-<img width="960" alt="Live-Tally" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/b603a991-0159-47ca-9de8-9e23b7b278ec">
-<img width="960" alt="Analytics" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/3d3019c6-309a-42c5-81bd-816416e3b164">
 
+**Admin Login**
+
+<img width="960" alt="Admin-Login" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/4b172a71-6f1c-4602-8253-ed1a3bd36499">
+
+**Add Candidates**
+
+<img width="960" alt="Add-Candidate" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/cba3fcd3-cf35-4401-8247-bdc2252ba319">
+
+**Add Voters**
+
+<img width="960" alt="Add Voter" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/c77c5fb9-0d93-4f2f-a472-ee17ef960282">
+
+**Voter Login**
 
 <img width="960" alt="Voter-Login" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/5bef72a9-8a27-4dce-a1e8-afeaab9ae217">
 
+**ZTS level 1 OTP**
+
 <img width="960" alt="OTP" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/c93ae436-aaee-4b5c-95d2-1bd4f6e2ded5">
+
+**ZTS level 2 OTP on click cast vote button**
+
 <img width="960" alt="ZTA" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/71f47c0a-2477-41c0-aeb3-31fc8cb637ca">
+
+**Select candidate to vote**
 
 <img width="960" alt="Poll-Vote" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/5a7c7f72-8c55-4154-bd80-9682ce82c56a">
 
+**NFT Receipt**
 
 <img width="960" alt="Receipt" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/b86fd0f0-da9c-4232-a576-bc685fdf3b55">
+
+**Real-Time Vote Tally**
+
+<img width="960" alt="Live-Tally" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/b603a991-0159-47ca-9de8-9e23b7b278ec">
+
+**Analytics**
+
+<img width="960" alt="Analytics" src="https://github.com/harikrish-s/OpenVote-pragyan/assets/93265718/3d3019c6-309a-42c5-81bd-816416e3b164">
+
 
 ## Built With
 
